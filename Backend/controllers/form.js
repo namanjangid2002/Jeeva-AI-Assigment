@@ -8,7 +8,6 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
 
 export const createUnit = async (req, res) => {
-    console.log("first");
     try {
         const { doctorName, patientName, patientAge } = req.body;
         if (!doctorName || !patientName || !patientAge) {

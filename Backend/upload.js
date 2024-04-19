@@ -8,7 +8,6 @@ const __dirname = dirname(__filename);
 
 const multerStorage = multer.diskStorage({
     destination: (req, file, cb) => {
-        console.log("fie");
         cb(null, __dirname + '/assets/audio');
     },
     filename: (req, file, cb) => {
