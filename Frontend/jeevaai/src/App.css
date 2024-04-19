@@ -1,0 +1,87 @@
+.fullscreen {
+  background-color: #282c34;
+  min-height: 100vh;
+  gap: 1vw;
+  padding-right: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  color: white;
+}
+
+.Input-Header {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: medium;
+  gap: 0.5vw;
+}
+
+.submitButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: medium;
+  gap: 0.5vw;
+  padding-right: 7vw;
+}
+
+.submitButton1 {
+  width: 7vw;
+  height: 3vh;
+  border: 0.12vw;
+  border-radius: 0.2vw;
+  border-color: rgb(0, 0, 0);
+  border-style: solid;
+}
+
+.inputfield {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 10vw;
+  height: 3vh;
+  border: 0.12vw;
+  border-radius: 0.2vw;
+  border-color: rgb(231, 211, 95);
+  border-style: solid;
+}
+
+.inputfieldd {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 10vw;
+  height: 3vh;
+}
+
+.table-container {
+  margin-top: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+tr:hover {
+  background-color: #ddd;
+}
